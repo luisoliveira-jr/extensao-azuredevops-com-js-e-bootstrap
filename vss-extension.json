@@ -1,0 +1,62 @@
+{
+    "manifestVersion": 1,
+    "id": "extensao-com-js-e-bootstrap",
+    "publisher": "LuisOliveira",
+    "version": "2.0.0",
+    "name": "E-JS-Bootstrap",
+    "description": "A sample Visual Studio Services extension",
+    "public": false,
+    "categories": ["Azure Repos"],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "img/logo.png"
+    },
+    "contributions": [
+        {
+            "id": "E-JS-Bootstrap",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                "ms.vss-code-web.code-hub-group"
+            ],
+            "properties": {
+                "name": "E-JS-Bootstrap",
+                "uri": "index.html"
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "index.html",
+            "addressable": true
+        },
+        {
+            "path": "cadastro.html",
+            "addressable": true
+        },
+        {
+            "path": "login.html",
+            "addressable": true
+        },
+        {
+            "path": "css",
+            "addressable": true
+        },
+        {
+            "path": "js",
+            "addressable": true
+        },
+        {
+            "path": "img",
+            "addressable": true
+        },
+        {
+            "path": "node_modules/vss-web-extension-sdk/lib",
+            "addressable": true,
+            "packagePath": "lib"
+        }
+    ]
+}

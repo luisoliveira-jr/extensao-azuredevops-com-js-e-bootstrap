@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>X-Professionals</title>
+
+  <script src="lib/VSS.SDK.min.js"></script>
+
+  <script type="text/javascript">
+    VSS.init();
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- define a viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- formatação de unicode -->
+  <meta charset="utf-8">
+
+  <!-- adicionar CSS Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <!-- css personalizado -->
+  <link href="css/estilo.css" rel="stylesheet" media="screen">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/img/favi.png">
+
+  <!-- icones -->
+  <script src="https://kit.fontawesome.com/764b878f25.js" crossorigin="anonymous"></script>
+
+  <script>
+    function funcao1() {
+      alert("Você já está na página home");
+    }
+
+    function funcao2() {
+      alert("Página em desenvolvimento");
+    }
+
+    function funcao3() {
+      alert("Página em manutenção");
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+      <div class="container ml-5 mr-0 pr-0 col-2" id="logo">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo3.png" height="40" alt="" loading="lazy" id="logo">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </a>
+      </div>
+
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" onclick="funcao1()" value="Exibir Alert">Início <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="funcao2()" value="Exibir Alert" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="funcao3()" value="Exibir Alert" href="#">Apoie</a>
+            </li>
+          </ul>
+          <a href="login.html">
+            <button type="button" class="btn btn-link text-body rounded-pill">Entrar</button></a>
+          <a href="cadastro.html">
+            <button type="button" class="btn btn-dark rounded-pill">Cadastre-se</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="card bg-dark text-white" id="banner">
+    <img src="img/banner2.png" class="card-img" alt="...">
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="card-deck">
+            <div class="card text-center">
+              <img src="img/cards1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Encontre seu novo emprego</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Vagas exclusivas para pessoas PCD</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <a href="#" class="btn btn-dark rounded-pill">Saiba mais</a>
+
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="img/cards2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Divulgue-se</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Exclusivo para profissionais PCD</h6>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                <a href="#" class="btn btn-dark rounded-pill">Saiba mais</a>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img src="img/cards3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Conheça a X-Professionals</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Transformando o mercado de trabalho</h6>
+                <p class="card-text">But I must explain to you how all this mistaken idea of denouncing pleasure and</p>
+                <a href="#" class="btn btn-dark rounded-pill">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="card-body mt-5 ml-5" id="video">
+    <div class="row no-gutters">
+      <div class="col-md-5 ml-5 mt-5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-bgA4r-Qnbg"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-5 mt-5">
+        <div class="card-body" id="textovideo">
+          <h5 class="card-title">Histórias que inspiram</h5>
+          <p class="card-text">FLÁVIO ARRUDA, Publicitário e especialista em gestão de trânsito e transporte urbano.
+            Caçula de sete irmãos e irmãs, aos 21 anos sofreu um acidente de carro que o deixou tetraplégico. Amante do
+            audiovisual, da literatura, da cultura e das lutas populares, é pesquisador do campo de estudos das
+            deficiências, autor de trabalhos sobre publicidade inclusiva e acessibilidade na política de mobilidade
+            urbana. Técnico com atuação no setor de transporte público, usa a própria experiência de vida no trabalho e
+            busca contribuir para que Fortaleza seja uma cidade cada vez mais acessível, inclusiva e que respeite a
+            diversidade de sua gente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-center" id="formu">
+    <div class="card-body mt-5">
+      <form>
+        <div class="form-group col-md-8 offset-md-2">
+          <label for="inputEmail4">
+            <h2>Pesquise por oportunidades</h2>
+          </label>
+        </div>
+
+        <div class="card offset-md-3" id="formu">
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="inputEmail4">Palavra-chave</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Ex.: Programador">
+            </div>
+
+            <div class="form-group col-md-3">
+              <label for="inputState">Estado</label>
+              <select id="inputState" class="form-control">
+                <option selected>São Paulo</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md-3">
+              <label for="inputState">Cidade</label>
+              <select id="inputState" class="form-control">
+                <option selected>Selecione...</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-lg-9" style="text-align: right;">
+            <button type="submit" class="btn btn-dark rounded-pill">Procurar</button>
+          </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="text-left">
+    <div class="card-group pt-5" id="rodapemaior">
+      <div class="card col-md-5" id="rodapemaior">
+        <img src="img/logobranco.png" height="90px" class="img-fluid w-75" alt="" loading="lazy" id="logo">
+        <div class="card-body">
+          <div class="btn-group ml-5" role="group" aria-label="...">
+            <i class="fab fa-linkedin fa-2x mr-3"></i>
+            <i class="fab fa-facebook-square fa-2x mr-3"></i>
+            <i class="fab fa-instagram fa-2x mr-3"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="rodapemaior">
+        <div class="card-body">
+          <h5 class="card-title">Institucional</h5>
+          <ul class="list-unstyled">
+            <li><button type="button" class="btn btn-link text-light rounded-pill">Manisfesto</button></li>
+            <li><button type="button" class="btn btn-link text-light rounded-pill">A X-Professionals</button></li>
+            <li><button type="button" class="btn btn-link text-light rounded-pill">Trabalhe conosco</button></li>
+            <li><button type="button" class="btn btn-link text-light rounded-pill">Imprensa</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" id="rodapemaior">
+        <div class="card-body">
+          <h5 class="card-title">Conteúdos</h5>
+          <ul class="list-unstyled">
+            <ul class="list-unstyled">
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Blog</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Materiais gratuitos</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Bolsas</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Cursos</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Nossa websérie</button></li>
+            </ul>
+        </div>
+      </div>
+      <div class="card" id="rodapemaior">
+        <div class="card-body">
+          <h5 class="card-title">Suporte</h5>
+          <ul class="list-unstyled">
+            <ul class="list-unstyled">
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Central de ajuda</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Fale com um especialista</button>
+              </li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Políticas</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Termos</button></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-group mt-lg-0" id="rodapemenor">
+      <div class="card-body">
+        2020 © X-Professionals
+      </div>
+      <div class="card-body text-right">
+        <i class="fas fa-heart"></i><strong> Feito por pessoas</strong> que acreditam em um mercado de trabalho
+        inclusivo.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">VSS.notifyLoadSucceeded();</script>
+
+</body>
+
+</html>

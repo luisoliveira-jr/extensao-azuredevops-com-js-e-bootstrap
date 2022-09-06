@@ -1,0 +1,185 @@
+<html>
+
+<head>
+  <title>X-Professionals</title>
+
+   <script>
+    function funcao1() {
+      alert("Você já está na página home");
+    }
+
+    function funcao2() {
+      alert("Página em desenvolvimento");
+    }
+
+    function funcao3() {
+      alert("Página em manutenção");
+    }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- define a viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- formatação de unicode -->
+  <meta charset="utf-8">
+
+  <!-- adicionar CSS Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <!-- css personalizado -->
+  <link href="css/estilo.css" rel="stylesheet" media="screen">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/img/favi.png">
+
+  <!-- icones -->
+  <script src="https://kit.fontawesome.com/764b878f25.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo3.png" height="40" class="d-inline-block align-top" alt="" loading="lazy" id="logo">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav mr-auto mr-4 mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="funcao2()" value="Exibir Alert" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="funcao3()" value="Exibir Alert" href="#">Apoie</a>
+            </li>
+          </ul>
+          <a href="cadastro.html">
+            <button type="button" class="btn btn-dark rounded-pill">Cadastre-se</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <div class="row mt-5 mb-5">
+        <div class="col-12">
+          <div class="card-deck">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Encontre seu novo emprego</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Vagas exclusivas para pessoas PCD</h6>
+                <br>
+                <h5 class="card-text">Faça seu login</h5>
+              </div>
+              <br>
+              <div class="form-group col-md-10 offset-md-3">
+                <form action="login" method="post" id="form-login">
+                  <div class="item">
+                    <input class="form-control col-7" name="campo[E-mail]" type="text" placeholder="E-mail:"
+                      data-sr-id="6">
+                    <br>
+                    <input class="form-control col-7" name="campo[Senha]" type="password" placeholder="Senha:"
+                      data-sr-id="7">
+                  </div> <!-- item -->
+                  <br>
+              </div>
+              <input class="btn btn-dark rounded-pill col-2 offset-md-5" type="submit" value="Enviar" data-sr-id="10">
+              </form>
+              <br>
+              <div class="text-center-login">
+                <a class="txt2" href="#">
+                  Esqueceu a senha
+                </a>|
+
+                <a class="txt2" href="#">
+                  Inscrever-se
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-left">
+    <div class="card-group pt-5" id="rodapemaior">
+      <div class="card col-md-5" id="rodapemaior">
+        <img src="img/logobranco.png" height="90px" class="img-fluid w-75" alt="" loading="lazy" id="logo">
+        <div class="card-body">
+          <div class="btn-group ml-5" role="group" aria-label="...">
+            <i class="fab fa-linkedin fa-2x mr-3"></i>
+            <i class="fab fa-facebook-square fa-2x mr-3"></i>
+            <i class="fab fa-instagram fa-2x mr-3"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="rodapemaior">
+        <div class="card-body">
+          <h5 class="card-title">Institucional</h5>
+          <ul class="list-unstyled">
+            <li><button type="button" class="btn btn-link text-light rounded-pill">Manisfesto</button></li>
+            <li><button type="button" class="btn btn-link text-light rounded-pill">A X-Professionals</button></li>
+            <li><button type="button" class="btn btn-link text-light rounded-pill">Trabalhe conosco</button></li>
+            <li><button type="button" class="btn btn-link text-light rounded-pill">Imprensa</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" id="rodapemaior">
+        <div class="card-body">
+          <h5 class="card-title">Conteúdos</h5>
+          <ul class="list-unstyled">
+            <ul class="list-unstyled">
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Blog</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Materiais gratuitos</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Bolsas</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Cursos</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Nossa websérie</button></li>
+            </ul>
+        </div>
+      </div>
+      <div class="card" id="rodapemaior">
+        <div class="card-body">
+          <h5 class="card-title">Suporte</h5>
+          <ul class="list-unstyled">
+            <ul class="list-unstyled">
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Central de ajuda</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Fale com um especialista</button>
+              </li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Políticas</button></li>
+              <li><button type="button" class="btn btn-link text-light rounded-pill">Termos</button></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-group mt-lg-0" id="rodapemenor">
+      <div class="card-body">
+        2020 © X-Professionals
+      </div>
+      <div class="card-body text-right">
+        <i class="fas fa-heart"></i><strong> Feito por pessoas</strong> que acreditam em um mercado de trabalho
+        inclusivo.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

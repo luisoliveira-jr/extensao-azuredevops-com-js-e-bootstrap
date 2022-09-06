@@ -1,0 +1,105 @@
+html {
+    font-size: 1rem;
+  }
+  
+div.bg{
+    background-color: black;
+    height: 50px;
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+body{
+    background-color: #e3f2fd;
+    color: black;
+}
+
+#direitacircular{
+    margin: 7px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 2px 20px 20px 2px;
+}
+
+.navbar-toggler
+{
+    margin: 7px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 100%;
+}
+
+.form-control{
+    align-items: center;
+    margin: 7px;
+    padding: 18px 15px 18px 15px;
+    border-radius: 20px;
+}
+
+#banner{
+    border: #67ADDD;
+    border-radius: 0px;
+}
+
+#titulobanner{
+    font-size: 100px;
+    width: 50%;
+    }
+
+#textobanner{
+    width: 50%;
+    }
+
+#formu{
+      color: #296186;
+      border: white;
+      border-radius: 0px;
+      background-color: #e3f2fd;
+  }
+
+#video{
+  background-color: #e3f2fd;
+  border-radius: 0px;
+  color: #296186;
+}
+
+#textovideo{
+  font-size: 13px;
+}
+
+#rodapemaior{
+  background-color: #296186;
+  border-radius: 0px;
+  border:  #296186;
+  color: white;
+}
+
+#rodapemenor{
+  background-color: #153952;
+  border-radius: 0px;
+  border:  #296186;
+  color: white;
+}
+
+/*Formulario Login*/
+#formu{
+  border: white;
+  border-radius: 0px;
+}
+.text-center-login a{
+text-decoration: none;
+}
+.text-center-login{
+margin-bottom: 20px;
+}
+#form-login .item .campo{
+border-radius: 10px;
+width: 40%;
+border-color: #ccc;
+visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+}
+#form-cadastro .item .campo{
+margin-bottom: 5px;
+border-radius: 10px;
+width: 40%;
+border-color: #ccc;
+visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 2s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+}
